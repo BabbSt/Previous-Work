@@ -1,0 +1,163 @@
+/*
+ * Add your CSS styles to this file.
+ */
+head{
+	font-family:Roboto;
+}
+body{
+	font-family:Roboto;
+	background-color:#eeeeee;
+	margin:0;
+}
+
+a{
+	color:#000000;
+	text-decoration: none;
+}
+
+.site-title{
+	background-color:#319df6;
+	color:#ffffff;
+	padding:10px;
+	margin:0;
+	font-weight:100;
+}
+
+.navbar{
+	background-color:#ffffff;
+}
+
+.navlist{
+	list-style-type:none;
+	margin:0;
+}
+
+.navitem{
+	display:inline-block;
+	font-size:16px;
+	margin:5px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.active>a{
+   /*text-decoration:underline;
+   text-decoration-color:#319df6;*/
+	
+	padding:5px;
+	border-bottom: 3px solid #319df6;
+}
+
+.navbar-search{
+	position:relative;
+	left:900px;
+	padding:0px;
+}
+
+#navbar-search-input{
+	background-color:#eeeeee;
+	border:1px solid #e2e2e2;
+	height:25px;
+	width:170px;
+}
+
+#navbar-search-button{
+	background-color:#ffffff;
+	border: none;
+}
+
+.twit-container{
+	padding:120px;
+	padding-top:50px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.twit{
+   	position:relative;
+	left:15px;
+	background-color:#ffffff;
+	width:350px;
+	margin:5px;
+	
+}
+
+.twit-icon>.fa-bullhorn{
+   position:absolute;
+   top:5px;
+	height:25px;
+	width:auto;
+	margin:10px;
+}
+
+.twit-text{
+	position:relative;
+	left:40px;
+	top:5px;
+	width:300px;
+	margin:5px;
+}
+
+.twit-attribution{
+  /* position: absolute;
+   right:8px;
+   bottom:0;*/
+	text-align:right;
+	position:relative;
+	right: 10px;
+	bottom:7px;
+	font-weight:700;
+}
+
+#create-twit-button{
+	background-color:#f8160c;
+	width:60px;
+	height:60px;
+	border:none;
+	border-radius:50%;
+	position: fixed;
+	right: 30px;
+	bottom: 150px;
+	box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+#create-twit-button>.fa-bullhorn{
+	color:#ffffff;
+	height:30px;
+	width:auto;
+}
+
+#create-twit-button:hover{
+	background-color:#3aa7f7;
+	cursor:pointer;
+	width:70px;
+	height:70px;
+	right: 25px;
+	bottom: 145px;
+
+}
+
+#create-twit-button:hover .fa-bullhorn{
+	height:40px;
+	width:auto;
+}
+
+#navbar-search-button:hover{
+	color:#67a0dd;
+	cursor:pointer;
+}
+
+#navbar-search-input:focus{
+	background-color:#ffffff;
+	outline:0;
+
+}
+
+.navlink>a:hover{
+	color:#67a0dd;
+	cursor:pointer;
+}
+.twit-attribution>a:hover{
+	cursor:pointer;
+	color:#67a0dd;
+}

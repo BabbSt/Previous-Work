@@ -1,0 +1,44 @@
+<html>
+<head
+	<meta name="viewport" content="height=height, width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="testc.css">
+<script src="testj.js"></script>
+</head>
+<body onkeydown="move(event)" onload="init()">
+<img id="pic" src="http://i.imgur.com/tLKgNja.png?1"></img>
+<img id="obs1"></img>
+<div id="levelFacts1" > 
+	<h1 align="center">Level 1: Alevin</h1>
+	<p>-Alevin live in gravel in their redd<br>-They get all their nutrients from the yolk sac<br>-The yolk sac lasts for about 4-6 weeks<br>-Fish and birds are predators of alevin<br>-An alevin's growth depends on the oxygen levels and temperature of the water</p>
+	<button type="button" onclick="startMovement()" id="cont" > Play this level</button>
+</div>
+<div id="levelFacts2" > 
+	<h1 align="center">Level 2: Fry </h1>
+	<p>-Fry are twice as big as alevins<br>-They have teeth and scales<br>-Fry eat plankton. As they get bigger, they eat insects<br>-Fry develop parr marks which help to camouflage them <br>-Fry swim in schools</p>
+	<button type="button" onclick="startMovement()" id="cont" > Play this level</button>
+</div>
+<div id="levelFacts3" > 
+	<h1 align="center">Level 3: Smolt </h1>
+	<p>-Smolts migrate from fresh water to salt water<br>-They spend many weeks in the estuary learning how to process salt water through their gills<br>-They grow larger in the estuary<br>-If an estuary floods, the smolt can be released into the saltwater too early and may die</p>
+	<button type="button" onclick="startMovement()" id="cont" > Play this level</button>
+</div>
+<div id="levelFacts4" > 
+	<h1 align="center">Level 4: Adult </h1>
+	<p>-When a smolt enters the ocean, it becomes an adult salmon<br>-Adult salmon eat herring, crustaceans, and squid<br>-Different types of salmon stay in the ocean for different amounts of time<br>-Some of the salmon's ocean predators include: dolphins, sharks, whales, and humans</p>
+	<button type="button" onclick="startMovement()" id="cont" > Play this level</button>
+</div>
+<div id="levelFacts5" > 
+	<h1 align="center">Level 5: Spawners</h1>
+	<p>-Spawners return to the estuary and get used to being back in fresh water<br>-Once in fresh water, thier bodies start to shut down. They stop eating<br>-Males develop another set of teeth and in most Pacific Northwest salmon, their bodies turn red<br>-The female builds the redds to lay her eggs<br>-A male has about 16 seconds to put milt on the eggs<br>-Bears, otters, and birds hunt for the salmon returning in the rivers and streams</p>
+	<button type="button" onclick="startMovement()" id="cont" > Play this level</button>
+</div>
+<div id="gameOver">
+	<h1 align="center"> Game Over</h1>
+	<center><img id="deadFish" src="http://i.imgur.com/oWTqNQl.png?1"></img><center>
+</div>
+<div id="gameWon">
+<h1 align="center"> Conratulations! </h1>
+<p align="center">Your salmon survived and made it back home</p>
+<center><img src="http://i.imgur.com/SKuUplv.png?1"></img><center>
+</div>
+</body>
